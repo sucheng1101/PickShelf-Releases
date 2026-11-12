@@ -1,19 +1,19 @@
 {
     "schemaVersion":  1,
     "product":  "PickShelf",
-    "version":  "0.6.3",
-    "publishedAt":  "2026-11-12T16:05:42.4405303Z",
-    "notes":  "更新清单机制（不再受 API 匿名限流影响）、助手启动日志、--update-now",
+    "version":  "0.6.4",
+    "publishedAt":  "2026-11-12T16:27:42.2674672Z",
+    "notes":  "静态清单更新通道、助手启动日志、--update-now",
     "installer-x64":  {
-                          "name":  "PickShelf-0.6.3-Setup-x64.exe",
-                          "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.6.3/PickShelf-0.6.3-Setup-x64.exe",
-                          "sha256":  "3319948929bef52ff08ee21300723d0baea202b832a90fdcbdd7753d3991c318",
-                          "size":  70202046
+                          "name":  "PickShelf-0.6.4-Setup-x64.exe",
+                          "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.6.4/PickShelf-0.6.4-Setup-x64.exe",
+                          "sha256":  "df798a4f46c487cf7ad7665b25888616b02b0dd2ae3c8b60297f2cfb54b19aa2",
+                          "size":  70208970
                       },
     "portable-x64":  {
-                         "name":  "PickShelf-0.6.3-Windows-x64-portable.zip",
-                         "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.6.3/PickShelf-0.6.3-Windows-x64-portable.zip",
-                         "sha256":  "4702974442fe690fee358c1bf77ce2989ab24195706f3fa7b2bdbf145030a8bd",
-                         "size":  94111362
+                         "name":  "PickShelf-0.6.4-Windows-x64-portable.zip",
+                         "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.6.4/PickShelf-0.6.4-Windows-x64-portable.zip",
+                         "sha256":  "60532fa08cef78cf7e639968e32448beb5d96737b0c76c3913f56826a2813dc8",
+                         "size":  94111520
                      }
 }
