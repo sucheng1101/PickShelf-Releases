@@ -1,19 +1,19 @@
 {
     "schemaVersion":  1,
     "product":  "PickShelf",
-    "version":  "0.8.0",
-    "publishedAt":  "2026-11-13T08:11:50.7609720Z",
-    "notes":  "## 新功能\n- **便签**：新建便签可以直接输入文字并添加文件/图片，双击进入编辑，附件可拖动排序\n- **便签送出**：拖进目标窗口时正文与附件一起过去；右键「粘贴到当前窗口」逐条发送\n- **搜索覆盖便签**：按标题与正文命中，不再只看文件名\n\n## 修复\n- 修复 `.note` 被图片头校验误判为坏图而无法进入衣柜的问题（新建便签看似没反应）\n- 复制便签时不再走图片路径报错：正文进剪贴板文本、附件进文件列表\n\n## 验证\n- 自检 22 项全过（新增便签往返、缩略图渲染、便签进衣柜三条）\n- `--paste-note` 实测 delivered=2（文字与附件各一条）",
+    "version":  "0.9.0",
+    "publishedAt":  "2026-11-13T09:36:29.7820882Z",
+    "notes":  "## 新功能\n- **衣柜重排**：左侧导航切视图（全部/衣服/套装/便签/待挂/待确认）+ 工具分组；三个开关收进「设置…」；右键只留上架/下架/移到回收站，其余进「更多」\n- **卡片自由摆放**：托盘开启后可把卡片拖到绳上任意位置，位置会记住；关闭时仍是顺序排列\n- **便签多段块编辑**：一段一个块，可增删、拖动排序、就地编辑，多段文字不再被压平\n- **来源角标**：外部截图卡片左下角直接显示「来自 xxx.exe」\n\n## 验证\n- 自检 22/22；外部来源探针 19/19；便签多段改序/删除实测通过；自由摆放坐标截图确认",
     "installer-x64":  {
-                          "name":  "PickShelf-0.8.0-Setup-x64.exe",
-                          "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.8.0/PickShelf-0.8.0-Setup-x64.exe",
-                          "sha256":  "3d2d5220040306c9a8a4ff728b0d4f9e5f810c78b5a40b8bf784a1e164a20d80",
-                          "size":  70215155
+                          "name":  "PickShelf-0.9.0-Setup-x64.exe",
+                          "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.0/PickShelf-0.9.0-Setup-x64.exe",
+                          "sha256":  "2564da83f3b6a95cdffc98de5b8ff80e298b2f3fd5545d65de395480600917c8",
+                          "size":  70233102
                       },
     "portable-x64":  {
-                         "name":  "PickShelf-0.8.0-Windows-x64-portable.zip",
-                         "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.8.0/PickShelf-0.8.0-Windows-x64-portable.zip",
-                         "sha256":  "17ff9a5d702d8ef7fedc5f37d855aecceba67654b11287b18c190582d416fdc5",
-                         "size":  94137177
+                         "name":  "PickShelf-0.9.0-Windows-x64-portable.zip",
+                         "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.0/PickShelf-0.9.0-Windows-x64-portable.zip",
+                         "sha256":  "8e4e172f9a34c2485080a81936d41299fa93315a7ee376ab41905bcc40d038b1",
+                         "size":  94144838
                      }
 }
