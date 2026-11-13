@@ -1,19 +1,19 @@
 {
     "schemaVersion":  1,
     "product":  "PickShelf",
-    "version":  "0.6.5",
-    "publishedAt":  "2026-11-13T00:33:03.4026257Z",
-    "notes":  "更新链路重试（检查/下载各 3 次退避）；新增发布脚本 scripts/release.ps1，一条命令完成版本号同步、构建、自检、发布、清单与 tag。",
+    "version":  "0.6.6",
+    "publishedAt":  "2026-11-13T01:10:08.0974914Z",
+    "notes":  "修复更新助手启动超时（等待 helper-ready 由 10 秒放宽到 60 秒）；发布脚本增加远端推送校验。",
     "installer-x64":  {
-                          "name":  "PickShelf-0.6.5-Setup-x64.exe",
-                          "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.6.5/PickShelf-0.6.5-Setup-x64.exe",
-                          "sha256":  "0e35a7a099819643db24e44a33dc37e153d36eda2fd4e3f68a779e53e2cd596b",
-                          "size":  70206792
+                          "name":  "PickShelf-0.6.6-Setup-x64.exe",
+                          "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.6.6/PickShelf-0.6.6-Setup-x64.exe",
+                          "sha256":  "036e929d27989f2298be06314800ec039ad436508718333e6221aa2841fa9f09",
+                          "size":  70203495
                       },
     "portable-x64":  {
-                         "name":  "PickShelf-0.6.5-Windows-x64-portable.zip",
-                         "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.6.5/PickShelf-0.6.5-Windows-x64-portable.zip",
-                         "sha256":  "b20a88ae0b563df4259abce02d6922ca8a08875ea5bd0d7c61bd88ba47a4ffa3",
-                         "size":  94112988
+                         "name":  "PickShelf-0.6.6-Windows-x64-portable.zip",
+                         "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.6.6/PickShelf-0.6.6-Windows-x64-portable.zip",
+                         "sha256":  "e2f385a40cfc00b3397ceb951ecb9fa1f09193295a75f2c47b3c68366048aff1",
+                         "size":  94112990
                      }
 }
