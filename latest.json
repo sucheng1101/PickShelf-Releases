@@ -1,19 +1,19 @@
 {
     "schemaVersion":  1,
     "product":  "PickShelf",
-    "version":  "0.9.3",
-    "publishedAt":  "2026-11-13T11:53:53.7350681Z",
-    "notes":  "## 新功能\n- 复制分成三种：套装/便签同时有文字和附件时，微信这类程序只会取文件，所以复制后粘贴看不到文字。\n  现在可选：复制文字 / 复制文件 / 文字和文件都放（原行为）\n  - 绳上卡片右键「复制」→ 子菜单三选一\n  - 衣柜「复制」按钮 → 选中套装或便签时弹出同样选择\n## 说明\n- 一次粘贴只能得到一个格式，这是目标程序决定的；要文字和附件一起发出去，请用右键「粘贴到当前窗口」\n## 验证\n- 探针实测：text 模式剪贴板只有 UnicodeText；files 模式只有 FileDrop；all 模式两者都有\n- 自检 22/22",
+    "version":  "0.9.4",
+    "publishedAt":  "2026-11-13T12:39:03.8274472Z",
+    "notes":  "## 修复与样式\n- 套装/文字卡的缩略图原来按 480×270 渲染，缩到 150 宽后名字只有 4 像素高，所以看不到名字和提示。\n  现在统一按卡片实际尺寸渲染，名字、摘要、提示都直接画在卡片上。\n- 套装：深色一叠纸 + 左上角琥珀色「套装」标记 + 名字 + 摘要 + 提示\n- 便签：米白纸面 + 右上角蓝色「便签」标记 + 标题 + 提示 + 正文\n- 便签新增「提示」字段，编辑器里可填，卡片和悬停都能看到\n\n## 验证\n- 卡片渲染探针输出截图，1 倍尺寸下文字清晰\n- 自检 22/22",
     "installer-x64":  {
-                          "name":  "PickShelf-0.9.3-Setup-x64.exe",
-                          "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.3/PickShelf-0.9.3-Setup-x64.exe",
-                          "sha256":  "b74aee66f7c631eb2b9d58f19bd95acb5f195c7dba502acf9685931ea8ac4f06",
-                          "size":  70224289
+                          "name":  "PickShelf-0.9.4-Setup-x64.exe",
+                          "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.4/PickShelf-0.9.4-Setup-x64.exe",
+                          "sha256":  "f18e708df17de2e144a4c8db2254bd8b919912b9a5f7f62f4875339ef1ba006f",
+                          "size":  70226677
                       },
     "portable-x64":  {
-                         "name":  "PickShelf-0.9.3-Windows-x64-portable.zip",
-                         "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.3/PickShelf-0.9.3-Windows-x64-portable.zip",
-                         "sha256":  "4c14fcb5f59b0d677ac49c657520384a5923b4d0ac8eb3cbb2bf3b583b1f5d98",
-                         "size":  94148356
+                         "name":  "PickShelf-0.9.4-Windows-x64-portable.zip",
+                         "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.4/PickShelf-0.9.4-Windows-x64-portable.zip",
+                         "sha256":  "de97c1b84d7192133297babdc6343c0f37ab89186821c1442f7636a7c43db987",
+                         "size":  94149278
                      }
 }
