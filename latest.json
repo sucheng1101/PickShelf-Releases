@@ -1,19 +1,19 @@
 {
     "schemaVersion":  1,
     "product":  "PickShelf",
-    "version":  "0.6.6",
-    "publishedAt":  "2026-11-13T01:10:08.0974914Z",
-    "notes":  "修复更新助手启动超时（等待 helper-ready 由 10 秒放宽到 60 秒）；发布脚本增加远端推送校验。",
+    "version":  "0.7.0",
+    "publishedAt":  "2026-11-13T06:51:57.5726853Z",
+    "notes":  "## 新功能\n- **外部截图先待确认**：微信 / Snipaste 等外部截图不再直接挂到屏幕上，先进衣柜「待确认」，衣柜顶部横幅可「全部挂上」或「全部丢弃（移到回收站）」\n- **来源标注**：卡片悬停与衣柜列表行显示「来自 WeChat.exe」这类说明；未知来源不显示\n- 衣柜顶部新增「外部截图先待确认」开关；待确认状态落盘，重启不会被悄悄挂上\n\n## 骨架（下一版接入界面）\n- 便签式衣服模块（数据模型、编辑器窗口、缩略图渲染）已落地并通过命令行探针验证，界面入口在下一版接线\n\n## 验证\n- 自检 19/19；外部来源探针 19/19（进衣柜不进绳、横幅计数、全部挂上后归零、重启保持待确认）",
     "installer-x64":  {
-                          "name":  "PickShelf-0.6.6-Setup-x64.exe",
-                          "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.6.6/PickShelf-0.6.6-Setup-x64.exe",
-                          "sha256":  "036e929d27989f2298be06314800ec039ad436508718333e6221aa2841fa9f09",
-                          "size":  70203495
+                          "name":  "PickShelf-0.7.0-Setup-x64.exe",
+                          "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.7.0/PickShelf-0.7.0-Setup-x64.exe",
+                          "sha256":  "94f50bc5207ef99b05d39b0dedc23a93ac70d15ef56f1ade36684ab392a5a99c",
+                          "size":  70206576
                       },
     "portable-x64":  {
-                         "name":  "PickShelf-0.6.6-Windows-x64-portable.zip",
-                         "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.6.6/PickShelf-0.6.6-Windows-x64-portable.zip",
-                         "sha256":  "e2f385a40cfc00b3397ceb951ecb9fa1f09193295a75f2c47b3c68366048aff1",
-                         "size":  94112990
+                         "name":  "PickShelf-0.7.0-Windows-x64-portable.zip",
+                         "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.7.0/PickShelf-0.7.0-Windows-x64-portable.zip",
+                         "sha256":  "1830d1efd3ba9ab4578581523dc77e38cd560c4b5e55d24f68e66b55231eb0ce",
+                         "size":  94131325
                      }
 }
