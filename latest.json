@@ -1,19 +1,19 @@
 {
     "schemaVersion":  1,
     "product":  "PickShelf",
-    "version":  "0.9.5",
-    "publishedAt":  "2026-11-13T13:03:14.8546958Z",
-    "notes":  "## 样式重做\n- 套装：画成文件夹，名字在上方，里面露出白纸，底部写装了几样东西；悬停看备注\n- 便签：暖黄便签纸 + 右下折角，名字在最上方，下面是备注与正文摘要\n- 两者颜色形态完全不同，一眼可分；便签悬停提示也带上了备注\n\n## 验证\n- 卡片渲染探针核对：名字/备注/数量完整显示\n- 自检 22/22；外部来源探针 19/19",
+    "version":  "0.9.6",
+    "publishedAt":  "2026-11-13T13:19:27.3598355Z",
+    "notes":  "## 关键修复\n- 套装/便签/文字卡一直显示成空白灰块：缩略图生成时对这些类型直接调了图片解码，绕过了它们各自的卡片渲染，\n  于是 .psuit/.note 被当图片解码而失败。现在按类型分流，卡片正常显示。\n\n## 样式\n- 套装 = 蓝色文件夹（名字在上、装了几样东西在下）\n- 便签 = 黄色便签纸（标题在上、备注其次、正文摘要）\n- 名字与数量字号放大一档，实际尺寸下更清楚\n\n## 验证\n- 真实环境截图确认两种卡都正常显示\n- 自检 22/22",
     "installer-x64":  {
-                          "name":  "PickShelf-0.9.5-Setup-x64.exe",
-                          "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.5/PickShelf-0.9.5-Setup-x64.exe",
-                          "sha256":  "fadcdeba260d35a1caf53d12c95dd83b17c155a0b6111eaed6c64c05242db719",
-                          "size":  70228355
+                          "name":  "PickShelf-0.9.6-Setup-x64.exe",
+                          "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.6/PickShelf-0.9.6-Setup-x64.exe",
+                          "sha256":  "7231b0f51660e70249e482c0ef26a4e81b01b745fde2aee5be78693093d5d913",
+                          "size":  70226966
                       },
     "portable-x64":  {
-                         "name":  "PickShelf-0.9.5-Windows-x64-portable.zip",
-                         "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.5/PickShelf-0.9.5-Windows-x64-portable.zip",
-                         "sha256":  "69aa6d2dae64bca652364a8b6150f90b539a67cf917a6e5f45ba47dc3dd3cd95",
-                         "size":  94149041
+                         "name":  "PickShelf-0.9.6-Windows-x64-portable.zip",
+                         "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.6/PickShelf-0.9.6-Windows-x64-portable.zip",
+                         "sha256":  "d1524f17a87458fc5f47517a805013ef71899de51ae026bebabf77a9358c3fd8",
+                         "size":  94149038
                      }
 }
