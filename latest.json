@@ -1,19 +1,19 @@
 {
     "schemaVersion":  1,
     "product":  "PickShelf",
-    "version":  "0.9.8",
-    "publishedAt":  "2026-11-13T15:03:45.5046202Z",
-    "notes":  "## 清晰度与样式\n- 卡片文字改用真正的文字控件（ClearType + 像素对齐），位图只留文件夹/便签纸图形，文字不再被缩放拉糊\n- 套装标题改为左对齐：原来居中正好被木夹子压住\n- 数量行落在文件夹下方预留带，不再被裁切或压住文件夹\n- 文字文件卡（txt/md）按新规格重做：白纸 + 灰色「文字」标记 + 文件名 + 4 行正文\n\n## 其它\n- 关于窗口去掉致谢段落；版权声明改为随安装包分发 LICENSE / NOTICE 文件（MIT 归属仍满足）\n\n## 验证\n- 自检 22/22；外部来源探针 19/19；文字卡实测 450×312；真机截图核对",
+    "version":  "0.9.9",
+    "publishedAt":  "2026-11-14T04:46:35.5122271Z",
+    "notes":  "## 新功能\n- 拖动一次送出全部内容：拖放只能带一种格式，微信只取文件；现在落点收下后会把文字补发到同一窗口，\n  拖一次 = 文件 + 文字都到（只有同时有文字和文件时才补发，可在设置里关）\n- 导出诊断包：衣柜「工具」和托盘菜单都有入口，一键生成 zip（最近 3000 行日志 + 脱敏设置 + 环境信息）\n\n## 诊断增强\n- 粘贴前记录目标进程名与是否管理员；目标以管理员运行会明确提示系统会拦截模拟按键\n- 模拟按键失败时区分写剪贴板失败与按键没生效，并记录目标信息\n\n## 验证\n- 真实文本框实测：补发文字 delivered=1，收到补发文字测试123\n- 自检 22/22；外部来源探针 19/19",
     "installer-x64":  {
-                          "name":  "PickShelf-0.9.8-Setup-x64.exe",
-                          "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.8/PickShelf-0.9.8-Setup-x64.exe",
-                          "sha256":  "ce0a371975e2b83f131c4d3924be64dc8fa6c68704fb3cd0b08c47189ab857e6",
-                          "size":  70224570
+                          "name":  "PickShelf-0.9.9-Setup-x64.exe",
+                          "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.9/PickShelf-0.9.9-Setup-x64.exe",
+                          "sha256":  "5cb77ced04e4303b3a999efc01e7edce2cfc91fa0d2f1e82582a03b95db12b9a",
+                          "size":  70239305
                       },
     "portable-x64":  {
-                         "name":  "PickShelf-0.9.8-Windows-x64-portable.zip",
-                         "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.8/PickShelf-0.9.8-Windows-x64-portable.zip",
-                         "sha256":  "cc2530dd18b31622080e307b8dc270adfd175f0f7c7c3752470c76c4899e79b1",
-                         "size":  94153525
+                         "name":  "PickShelf-0.9.9-Windows-x64-portable.zip",
+                         "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.9/PickShelf-0.9.9-Windows-x64-portable.zip",
+                         "sha256":  "53a7209bba1d32d40ddbb3ef3f4aab9bb03d3a6fca66ef42f0f6d29730f18b96",
+                         "size":  94159672
                      }
 }
