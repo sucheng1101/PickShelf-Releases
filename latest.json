@@ -1,19 +1,19 @@
 {
     "schemaVersion":  1,
     "product":  "PickShelf",
-    "version":  "0.9.13",
-    "publishedAt":  "2026-11-14T08:06:33.9969437Z",
-    "notes":  "## 交互调整\n- 取消单击复制：单击只做选中（卡片轻放大 + 阴影加深），不再写剪贴板。复制统一走右键菜单。\n- 双击仍是粘到光标处。这样一次手势只碰一次剪贴板，别人占用时不会再卡几十秒。\n\n## 验证\n- 真机实测：单击无复制记录；双击文本框收到便签文字\n- 自检 22/22；外部来源探针 19/19",
+    "version":  "0.9.14",
+    "publishedAt":  "2026-11-14T08:23:54.4242273Z",
+    "notes":  "## 文案修正\n- 「Windows 更新」字样全部改成软件自己的说法（沿用上游命名的残留，容易误会成在动系统）：\n  窗口标题改为「拾屏 · 检查更新」，托盘菜单改为「检查更新…」，\n  检查结果改为「当前已是最新版本」，导入对话框改为「导入拾屏更新包」\n- 关于窗口里残留的半句「手动检查 Windows 更新」已删\n\n## 验证\n- 自检 22/22；更新检查仍正常（no-update）",
     "installer-x64":  {
-                          "name":  "PickShelf-0.9.13-Setup-x64.exe",
-                          "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.13/PickShelf-0.9.13-Setup-x64.exe",
-                          "sha256":  "11cec53743c74288c1042b2be674fa1ba6ac443ae79330043761ffd795e7d816",
-                          "size":  70240049
+                          "name":  "PickShelf-0.9.14-Setup-x64.exe",
+                          "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.14/PickShelf-0.9.14-Setup-x64.exe",
+                          "sha256":  "120bcc58db8f51f9bcacc55bb73943e961ad8c47a139d0ef296da3e7233f7a0f",
+                          "size":  70238547
                       },
     "portable-x64":  {
-                         "name":  "PickShelf-0.9.13-Windows-x64-portable.zip",
-                         "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.13/PickShelf-0.9.13-Windows-x64-portable.zip",
-                         "sha256":  "9bff87e6e62f912cc6529c77bc04586726cd578e0a534721664f4b2c222e7efa",
-                         "size":  94161137
+                         "name":  "PickShelf-0.9.14-Windows-x64-portable.zip",
+                         "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.14/PickShelf-0.9.14-Windows-x64-portable.zip",
+                         "sha256":  "c0d688e6df006bf1256f750f5f4f6a5293b9156b0f64750aca5eca6261571379",
+                         "size":  94161092
                      }
 }
