@@ -1,19 +1,19 @@
 {
     "schemaVersion":  1,
     "product":  "PickShelf",
-    "version":  "0.9.10",
-    "publishedAt":  "2026-11-14T05:58:44.1534098Z",
-    "notes":  "## 摆放方式调整\n- 自由摆放改成沿绳滑动：拖动只改左右位置，纵向自动贴绳，不再能在页面上随便放；旧坐标自动归位\n- 最左边那块空位当不常用区：卡片右键「更多」→「放到最左边（不常用）」；「回到正常排列」取消\n\n## 验证\n- 真机截图确认两张卡都贴着绳线（套装在最左、便签在中间）\n- 自检 22/22；外部来源探针 19/19",
+    "version":  "0.9.11",
+    "publishedAt":  "2026-11-14T06:18:54.7968872Z",
+    "notes":  "## 新功能\n- 双击卡片直接粘到光标处：图片、便签、套装都一样。绳子窗口不抢焦点，所以内容会粘进你在打字的那个程序\n  的插入光标位置。便签=文字(+附件)，套装=文字与文件逐条送出，图片=按图片粘。\n- 打开与编辑仍在右键菜单里。\n\n## 验证\n- 真实文本框 + 真实双击实测：便签收到 321312；套装送出 3/3 项，文本框收到文字\n- 自检 22/22；外部来源探针 19/19",
     "installer-x64":  {
-                          "name":  "PickShelf-0.9.10-Setup-x64.exe",
-                          "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.10/PickShelf-0.9.10-Setup-x64.exe",
-                          "sha256":  "ea28c21a631619e771d35527a8ec5bbfcc31ee68f45eccd227a59760f772243a",
-                          "size":  70234936
+                          "name":  "PickShelf-0.9.11-Setup-x64.exe",
+                          "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.11/PickShelf-0.9.11-Setup-x64.exe",
+                          "sha256":  "4a10dbf69b0c23b8d1d4a0df6dcb01a2e9189507b4805fe85f0e325e1e116290",
+                          "size":  70238705
                       },
     "portable-x64":  {
-                         "name":  "PickShelf-0.9.10-Windows-x64-portable.zip",
-                         "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.10/PickShelf-0.9.10-Windows-x64-portable.zip",
-                         "sha256":  "b07af2e46e1a345274789e098167b1d109b42cacca0c40618771cf2cb860db68",
-                         "size":  94159896
+                         "name":  "PickShelf-0.9.11-Windows-x64-portable.zip",
+                         "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.11/PickShelf-0.9.11-Windows-x64-portable.zip",
+                         "sha256":  "71774f877b46f36865c04c8beab9ffa6d21f368e833ea98ff68026ed3a659022",
+                         "size":  94160701
                      }
 }
