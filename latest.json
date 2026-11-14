@@ -1,19 +1,19 @@
 {
     "schemaVersion":  1,
     "product":  "PickShelf",
-    "version":  "0.9.12",
-    "publishedAt":  "2026-11-14T07:53:06.3392163Z",
-    "notes":  "## 修复\n- 双击会先触发一次复制，导致粘贴卡几十秒：一次双击抢了两次剪贴板，若别的程序正占着剪贴板，\n  写剪贴板会重试到 30 秒，期间焦点跑掉，内容就粘不进去。现在单击复制改成延时 280ms，双击会取消它。\n- 剪贴板写入耗时超过 400ms 会记日志，异地排查更直观。\n\n## 排查结论（来自诊断包）\n- 版本 0.9.11、7 张卡片、双击有触发、粘贴链路可用\n- 微信那次：双击后 30 秒才写进剪贴板，焦点已切换，所以没粘进去\n- 套装「送出 0 / 0 项」是空套装；「没有找到可粘贴的目标窗口」是双击时前台是拾屏自己\n\n## 验证\n- 真机双击实测：不再先复制，文本框收到便签文字\n- 自检 22/22",
+    "version":  "0.9.13",
+    "publishedAt":  "2026-11-14T08:06:33.9969437Z",
+    "notes":  "## 交互调整\n- 取消单击复制：单击只做选中（卡片轻放大 + 阴影加深），不再写剪贴板。复制统一走右键菜单。\n- 双击仍是粘到光标处。这样一次手势只碰一次剪贴板，别人占用时不会再卡几十秒。\n\n## 验证\n- 真机实测：单击无复制记录；双击文本框收到便签文字\n- 自检 22/22；外部来源探针 19/19",
     "installer-x64":  {
-                          "name":  "PickShelf-0.9.12-Setup-x64.exe",
-                          "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.12/PickShelf-0.9.12-Setup-x64.exe",
-                          "sha256":  "2807115672abf2ca8c92de39f1b3cd52dc02c115e55a9e9400b9cfe1ea66ae46",
-                          "size":  70239974
+                          "name":  "PickShelf-0.9.13-Setup-x64.exe",
+                          "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.13/PickShelf-0.9.13-Setup-x64.exe",
+                          "sha256":  "11cec53743c74288c1042b2be674fa1ba6ac443ae79330043761ffd795e7d816",
+                          "size":  70240049
                       },
     "portable-x64":  {
-                         "name":  "PickShelf-0.9.12-Windows-x64-portable.zip",
-                         "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.12/PickShelf-0.9.12-Windows-x64-portable.zip",
-                         "sha256":  "44141d5c18eaffb61deb1addeb18a8488503f03c6e418b75a83a538a4078b574",
-                         "size":  94161028
+                         "name":  "PickShelf-0.9.13-Windows-x64-portable.zip",
+                         "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.13/PickShelf-0.9.13-Windows-x64-portable.zip",
+                         "sha256":  "9bff87e6e62f912cc6529c77bc04586726cd578e0a534721664f4b2c222e7efa",
+                         "size":  94161137
                      }
 }
