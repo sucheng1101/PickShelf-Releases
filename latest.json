@@ -1,19 +1,19 @@
 {
     "schemaVersion":  1,
     "product":  "PickShelf",
-    "version":  "0.9.15",
-    "publishedAt":  "2026-11-14T09:37:45.5477496Z",
-    "notes":  "## 修复\n- 便携版更新被自己的校验拒绝：更新包里的 Tessdata（OCR 语言包）不在白名单，报「试图覆盖非程序目录」。\n  已补上 tessdata/sounds/themes/fonts，并放行安装目录里实际存在的子目录；加了回归用例。\n\n## 文案\n- 去掉窗口里重复的大标题\n- 包含预发布版本（尝鲜）、发现新版本 x、下载、立即更新\n- 精简说明文字，去掉内部细节\n\n## 实测\n- 安装版完整升级：0.9.13 → 下载 0.9.14 → SUCCESS updated to 0.9.14（装到临时目录，已清理）",
+    "version":  "0.9.16",
+    "publishedAt":  "2026-11-14T09:56:27.8069727Z",
+    "notes":  "## 界面调整\n- 检查更新窗口收版面：高度 535 改 380，说明区不再占满空白\n- 新增离屏渲染探针，方便以后核对文案\n\n## 验证\n- 渲染核对通过；自检 22/22",
     "installer-x64":  {
-                          "name":  "PickShelf-0.9.15-Setup-x64.exe",
-                          "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.15/PickShelf-0.9.15-Setup-x64.exe",
-                          "sha256":  "0a6760791fd41763bcadeaa534cb197c3a61597062157fe5aca49de06c990695",
-                          "size":  70242020
+                          "name":  "PickShelf-0.9.16-Setup-x64.exe",
+                          "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.16/PickShelf-0.9.16-Setup-x64.exe",
+                          "sha256":  "224e650b00919a727c8078c1e2b76525a546d994e5702cb93c8f0278a0a19152",
+                          "size":  70239312
                       },
     "portable-x64":  {
-                         "name":  "PickShelf-0.9.15-Windows-x64-portable.zip",
-                         "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.15/PickShelf-0.9.15-Windows-x64-portable.zip",
-                         "sha256":  "cba791d2aecec1ba72d49ba9da76eec4521798bcf7a6b7ecbf03f88051299e45",
-                         "size":  94161184
+                         "name":  "PickShelf-0.9.16-Windows-x64-portable.zip",
+                         "url":  "https://github.com/sucheng1101/PickShelf-Releases/releases/download/windows-v0.9.16/PickShelf-0.9.16-Windows-x64-portable.zip",
+                         "sha256":  "db99e54df2687680325c3b13888413d4e1f341d7926df3550ade0511654f8815",
+                         "size":  94161455
                      }
 }
